@@ -15,7 +15,8 @@ def loads(files):
             nn=nn.strip()
             if nn!="":
                 aa=aa+[nn]
-        a=a+[aa]    
+        if aa!=[]:
+            a=a+[aa]    
     return a
 
 files=input()
